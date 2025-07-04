@@ -94,7 +94,7 @@ Passionate Full-Stack Developer who loves turning **innovative ideas** into **sc
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-FF5722?style=for-the-badge)](https://taimoorkhan.me)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Connect-0077B5?style=for-the-badge)](https://linkedin.com/in/taimoorkhan55)
 [![Upwork](https://img.shields.io/badge/💼_Upwork-Hire_Me-6FDA44?style=for-the-badge)](https://upwork.com/freelancers/taimoorkhan14)
-[![Twitter](https://img.shields.io/badge/🐦_Twitter-Follow-1DA1F2?style=for-the-badge)](https://x.com/taimoorkhan1122)
+[![Twitter](https://img.shields.io/badge/🐦_Twitter-Follow-1DA1F2?style=for-the-badge)](https://x.com/Taimi360)
 
 </div>
 
