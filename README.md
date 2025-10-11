@@ -65,9 +65,9 @@ Passionate Full-Stack Developer who loves turning **innovative ideas** into **sc
 
 <div align="center">
 
-![Taimoor's GitHub stats](https://github-readme-stats.vercel.app/api?username=Taimoorkhan1122&show_icons=true&theme=radical)
+<img src="https://github-readme-stats.vercel.app/api?username=Taimoorkhan1122&show_icons=true&theme=radical" alt="Taimoor's GitHub stats" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Taimoorkhan1122&layout=compact&theme=radical)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Taimoorkhan1122&layout=compact&theme=radical" alt="Top Languages" />
 
 </div>
 
@@ -77,7 +77,7 @@ Passionate Full-Stack Developer who loves turning **innovative ideas** into **sc
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Taimoorkhan1122&theme=radical)](https://git.io/streak-stats)
+<img src="https://streak-stats.demolab.com/?user=Taimoorkhan1122&theme=radical" alt="GitHub Streak" />
 
 </div>
 
