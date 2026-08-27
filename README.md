@@ -1,5 +1,5 @@
 # 💫 About Me:
-Passionate Full-Stack Developer who loves turning innovative ideas into scalable digital products. I thrive on building solutions that make a real impact and enjoy every step of the development journey.
+Passionate Full-Stack AI Engineer, who loves turning innovative ideas into scalable digital products. I thrive on building solutions that make a real impact and enjoy every step of the development journey.
 
 
 ## 🌐 Socials:
