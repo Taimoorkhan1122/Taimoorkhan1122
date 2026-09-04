@@ -2,13 +2,26 @@
 
 I take AI-built prototypes to production: **AI agents, RAG systems, and the backend underneath them.**
 
+> [!NOTE]
+> **Available for contract and freelance work.**
+> Email [khant8k83@gmail.com](mailto:khant8k83@gmail.com) or message me on [LinkedIn](https://linkedin.com/in/taimoorkhan55).
+
 Founders ship an MVP with a coding agent, it demos well, then it meets real users and real data. That gap — auth that leaks across tenants, retrieval that hallucinates, a queue with no idempotency, zero tests, no way to tell what broke — is the work I do. TypeScript and NestJS on the backend, Next.js and React on the front, PostgreSQL and Supabase underneath.
 
-**Available for contract and freelance work.** Email [khant8k83@gmail.com](mailto:khant8k83@gmail.com) or message me on [LinkedIn](https://linkedin.com/in/taimoorkhan55).
+## From prototype to production
 
----
-
-## What I do
+```mermaid
+flowchart LR
+    A["AI-built MVP<br/>the demo works"] --> B{"Production audit"}
+    B --> C["Tenant isolation<br/>auth and sessions"]
+    B --> D["Data integrity<br/>migrations, transactions"]
+    B --> E["Agent behaviour<br/>tool boundaries, evals"]
+    B --> F["Operability<br/>tests, logs, traces"]
+    C --> G["Safe to charge for"]
+    D --> G
+    E --> G
+    F --> G
+```
 
 **Take an AI-built MVP to production.** Tenant isolation, authentication and session handling, payment integration, migrations, error handling, tests, and the observability needed to debug it at 2am. The unglamorous layer between "the demo works" and "we can charge for this".
 
@@ -22,7 +35,23 @@ Founders ship an MVP with a coding agent, it demos well, then it meets real user
 
 Humans make the engineering decisions. Agents do the work inside them.
 
-Architecture, API contracts, data model, boundaries and allowed dependencies are decided by people and written into the repository, so neither a new engineer nor a coding agent has to re-derive them. Within those constraints an agent picks the implementation freely. Outside them — a new dependency, a new service, a schema change with a migration path — it raises the blocker instead of inventing an answer.
+```mermaid
+flowchart TD
+    H["Humans decide, once"] --> H1["Architecture"]
+    H --> H2["API contracts"]
+    H --> H3["Data model and boundaries"]
+    H --> H4["Allowed dependencies"]
+    H1 --> R["Written into the repository"]
+    H2 --> R
+    H3 --> R
+    H4 --> R
+    R --> W["Agent implements freely inside them"]
+    W --> Q{"Hits a decision<br/>it does not own?"}
+    Q -->|"no"| S["Ships"]
+    Q -->|"yes"| E["Raises the blocker<br/>instead of inventing an answer"]
+```
+
+Architecture, API contracts, the data model and allowed dependencies are decided by people and written into the repository, so neither a new engineer nor a coding agent has to re-derive them. Within those constraints an agent picks the implementation freely. Outside them — a new dependency, a new service, a schema change with a migration path — it raises the blocker.
 
 That principle is why the tools below exist: they encode the decision, so it only has to be made once.
 
@@ -51,10 +80,13 @@ Six years building for the web, starting in 2020 with React frontends and moving
 
 ## Contact
 
-- **Email** — [khant8k83@gmail.com](mailto:khant8k83@gmail.com)
-- **LinkedIn** — [linkedin.com/in/taimoorkhan55](https://linkedin.com/in/taimoorkhan55)
-- **X** — [@Taimi360](https://x.com/Taimi360)
-- **Stack Overflow** — [taimoor](https://stackoverflow.com/users/12393165/taimoor)
-- **Website** — [tamork.tech](http://tamork.tech/)
+| | |
+|---|---|
+| **Email** | [khant8k83@gmail.com](mailto:khant8k83@gmail.com) |
+| **LinkedIn** | [linkedin.com/in/taimoorkhan55](https://linkedin.com/in/taimoorkhan55) |
+| **X** | [@Taimi360](https://x.com/Taimi360) |
+| **Stack Overflow** | [taimoor](https://stackoverflow.com/users/12393165/taimoor) |
+| **Website** | [tamork.tech](http://tamork.tech/) |
 
-Best first message: what you have built, what is breaking, and when you need it working.
+> [!TIP]
+> Best first message: what you have built, what is breaking, and when you need it working.
