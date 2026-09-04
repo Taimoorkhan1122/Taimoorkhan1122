@@ -67,6 +67,11 @@ That principle is why the tools below exist: they encode the decision, so it onl
 
 ## Stack
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,python,rust,nodejs,nestjs,express,graphql,react,nextjs,tailwind,vite,postgres,supabase,mongodb,redis,docker,kubernetes,githubactions,cloudflare,vercel&theme=dark&perline=11">
+  <img alt="TypeScript, JavaScript, Python, Rust, Node.js, NestJS, Express, GraphQL, React, Next.js, Tailwind CSS, Vite, PostgreSQL, Supabase, MongoDB, Redis, Docker, Kubernetes, GitHub Actions, Cloudflare, Vercel" src="https://skillicons.dev/icons?i=ts,js,python,rust,nodejs,nestjs,express,graphql,react,nextjs,tailwind,vite,postgres,supabase,mongodb,redis,docker,kubernetes,githubactions,cloudflare,vercel&theme=light&perline=11">
+</picture>
+
 - **Languages** — TypeScript, JavaScript, Python, SQL, some Rust
 - **Backend** — Node.js, NestJS, Express, GraphQL, REST, WebSockets, Server-Sent Events
 - **Frontend** — React, Next.js, TanStack Query, Tailwind CSS, Vite
@@ -77,6 +82,18 @@ That principle is why the tools below exist: they encode the decision, so it onl
 ## Background
 
 Six years building for the web, starting in 2020 with React frontends and moving to backend and platform work from 2021. Currently at Geeks of Kolachi in Karachi, Pakistan, working across full-stack product delivery and AI systems. I work remotely.
+
+## GitHub activity
+
+![On GitHub since 2019](https://img.shields.io/badge/on_GitHub_since-2019-1f6feb?style=flat-square)
+![443 merged pull requests](https://img.shields.io/badge/merged_pull_requests-443-1f6feb?style=flat-square)
+![2142 commits in the last year](https://img.shields.io/badge/commits_last_year-2%2C142-1f6feb?style=flat-square)
+![Based in Karachi, Pakistan](https://img.shields.io/badge/based_in-Karachi,_PK-1f6feb?style=flat-square)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Taimoorkhan1122&hide_border=true&theme=github-dark-blue">
+  <img alt="Contribution streak for Taimoorkhan1122: current streak, longest streak and total contributions" src="https://github-readme-streak-stats.herokuapp.com/?user=Taimoorkhan1122&hide_border=true&theme=default">
+</picture>
 
 ## Contact
 
