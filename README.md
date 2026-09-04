@@ -68,7 +68,7 @@ That principle is why the tools below exist: they encode the decision, so it onl
 ## Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,python,rust,nodejs,nestjs,express,graphql,react,nextjs,tailwind,vite,postgres,supabase,mongodb,redis,docker,kubernetes,githubactions,cloudflare,vercel&theme=dark&perline=11">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Cpython%2Crust%2Cnodejs%2Cnestjs%2Cexpress%2Cgraphql%2Creact%2Cnextjs%2Ctailwind%2Cvite%2Cpostgres%2Csupabase%2Cmongodb%2Credis%2Cdocker%2Ckubernetes%2Cgithubactions%2Ccloudflare%2Cvercel&theme=dark&perline=11">
   <img alt="TypeScript, JavaScript, Python, Rust, Node.js, NestJS, Express, GraphQL, React, Next.js, Tailwind CSS, Vite, PostgreSQL, Supabase, MongoDB, Redis, Docker, Kubernetes, GitHub Actions, Cloudflare, Vercel" src="https://skillicons.dev/icons?i=ts,js,python,rust,nodejs,nestjs,express,graphql,react,nextjs,tailwind,vite,postgres,supabase,mongodb,redis,docker,kubernetes,githubactions,cloudflare,vercel&theme=light&perline=11">
 </picture>
 
