@@ -1,27 +1,60 @@
-# 💫 About Me:
-Passionate Full-Stack AI Engineer, who loves turning innovative ideas into scalable digital products. I thrive on building solutions that make a real impact and enjoy every step of the development journey.
+# Taimoor Khan — AI engineer, Karachi
 
+I take AI-built prototypes to production: **AI agents, RAG systems, and the backend underneath them.**
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://linkedin.com/in/taimoorkhan55) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/https://stackoverflow.com/users/12393165/taimoor) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/Taimi360) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:khant8k83@gmail.com) 
+Founders ship an MVP with a coding agent, it demos well, then it meets real users and real data. That gap — auth that leaks across tenants, retrieval that hallucinates, a queue with no idempotency, zero tests, no way to tell what broke — is the work I do. TypeScript and NestJS on the backend, Next.js and React on the front, PostgreSQL and Supabase underneath.
 
-# 💻 Tech Stack:
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![Strapi](https://img.shields.io/badge/strapi-%232E7EEA.svg?style=for-the-badge&logo=strapi&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Taimoorkhan1122&theme=rose_pine&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Taimoorkhan1122&theme=rose_pine&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Taimoorkhan1122&theme=rose_pine&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Taimoorkhan1122&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Taimoorkhan1122&limit=5&theme=dark&combine_all_yearly_contributions=true)
+**Available for contract and freelance work.** Email [khant8k83@gmail.com](mailto:khant8k83@gmail.com) or message me on [LinkedIn](https://linkedin.com/in/taimoorkhan55).
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Taimoorkhan1122&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## What I do
+
+**Take an AI-built MVP to production.** Tenant isolation, authentication and session handling, payment integration, migrations, error handling, tests, and the observability needed to debug it at 2am. The unglamorous layer between "the demo works" and "we can charge for this".
+
+**Build AI agents and RAG systems that hold up.** Tool design and permission boundaries enforced outside the model, multi-tenant retrieval where tenant identity comes from the session and never from the model, streaming responses with provenance, and evals so behaviour is measured rather than vibed.
+
+**Clean up vibe-coded repositories.** Codebases generated fast by AI, now unmaintainable: no boundaries, duplicated logic, silent breakage. I give them a structure a human team and a coding agent can both work inside.
+
+**Review before launch.** Adversarial, whole-repository audits of security, data integrity, deployment and test coverage — with a go/no-go answer, not a list of nits.
+
+## How I work: agent-first engineering
+
+Humans make the engineering decisions. Agents do the work inside them.
+
+Architecture, API contracts, data model, boundaries and allowed dependencies are decided by people and written into the repository, so neither a new engineer nor a coding agent has to re-derive them. Within those constraints an agent picks the implementation freely. Outside them — a new dependency, a new service, a schema change with a migration path — it raises the blocker instead of inventing an answer.
+
+That principle is why the tools below exist: they encode the decision, so it only has to be made once.
+
+## Open source
+
+**[prod-readiness](https://github.com/Taimoorkhan1122/prod-readiness)** — Production-readiness audit plugin for Claude Code. Seven parallel specialist agents review security, backend, database, DevOps, QA, frontend and AI-security concerns over one shared evidence pass, and return a SHIP / FIX THEN SHIP / HOLD verdict with an evidence ledger. Built for teams shipping AI-generated code.
+
+**[boring-react](https://github.com/Taimoorkhan1122/boring-react)** — Agent Skills that make coding agents write boring, production-grade React: no needless `useEffect`, no surprise dependencies, no cargo-cult memoization. Portable `SKILL.md` format, 12 adversarial evals.
+
+**[langraph_agent](https://github.com/Taimoorkhan1122/langraph_agent)** — Hierarchical LangGraph agent on NestJS. An LLM classifies each query, a StateGraph routes it to RAG, chart, direct or hybrid branches, retrieval runs per-tenant against Weaviate, and the answer streams over SSE with file and page references.
+
+**[ecommerce-backend](https://github.com/Taimoorkhan1122/ecommerce-backend)** — E-commerce API in TypeScript with Node, Express, GraphQL and PostgreSQL.
+
+## Stack
+
+- **Languages** — TypeScript, JavaScript, Python, SQL, some Rust
+- **Backend** — Node.js, NestJS, Express, GraphQL, REST, WebSockets, Server-Sent Events
+- **Frontend** — React, Next.js, TanStack Query, Tailwind CSS, Vite
+- **Data** — PostgreSQL, Supabase, MongoDB, Redis, Weaviate, pgvector
+- **AI** — LangGraph, LangChain, RAG pipelines, agent tooling and evals, Claude Code, Codex, MCP
+- **Infrastructure** — Docker, Kubernetes, GitHub Actions, Cloudflare Workers, Vercel
+
+## Background
+
+Six years building for the web, starting in 2020 with React frontends and moving to backend and platform work from 2021. Currently at Geeks of Kolachi in Karachi, Pakistan, working across full-stack product delivery and AI systems. I work remotely.
+
+## Contact
+
+- **Email** — [khant8k83@gmail.com](mailto:khant8k83@gmail.com)
+- **LinkedIn** — [linkedin.com/in/taimoorkhan55](https://linkedin.com/in/taimoorkhan55)
+- **X** — [@Taimi360](https://x.com/Taimi360)
+- **Stack Overflow** — [taimoor](https://stackoverflow.com/users/12393165/taimoor)
+- **Website** — [tamork.tech](http://tamork.tech/)
+
+Best first message: what you have built, what is breaking, and when you need it working.
