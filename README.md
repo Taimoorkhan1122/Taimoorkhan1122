@@ -1,6 +1,6 @@
 # Taimoor Khan
 
-AI engineer in Karachi. I take AI-built apps to production.
+### Full-stack Agentic AI engineer in Karachi. I take AI-built apps to production.
 
 Most jobs reach me the same way. A founder has an app a coding agent built, it demos fine, and it breaks the week real users arrive. I go in and add what was never there: tenant isolation, working auth, migrations that don't lose data, tests, and enough logging to find out what broke.
 
