@@ -8,6 +8,16 @@ The other half of my work is building the agents themselves — retrieval that c
 
 Backend is NestJS and Node on Postgres. Frontend is React and Next.js when a project needs one.
 
+
+## Certification
+
+**[Claude Certified Developer – Foundations (Anthropic)](https://www.credly.com/badges/30baa19c-ea16-4bdb-899e-4015c0488039)**
+
+Earned November 4, 2026 · Expires November 4, 2027.
+
+Validated knowledge of Claude API mechanics, agent architecture and patterns, context engineering, tool implementation, MCP development, AI application security, and token/cost management.
+
+
 > [!NOTE]
 > **Open to contract work.** [khant8k83@gmail.com](mailto:khant8k83@gmail.com) · [LinkedIn](https://linkedin.com/in/taimoorkhan55)
 
